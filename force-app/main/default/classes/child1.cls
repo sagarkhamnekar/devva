@@ -13,5 +13,7 @@ public class child1 extends Parent {
     
     public void eat(){
         system.debug('i am eating....');
+
+        //check point 
     }
 }
