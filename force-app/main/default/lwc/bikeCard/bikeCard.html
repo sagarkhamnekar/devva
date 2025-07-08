@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Record Form Example" icon-name="standard:account">
+        <div class="slds-p-around_medium">
+            <!-- Record Form -->
+            <lightning-record-form
+                record-id={recordId}
+                object-api-name="Account"
+                layout-type="Full"
+                mode={formMode}
+                onsuccess={handleSuccess}>
+            </lightning-record-form>
+        </div>
+    </lightning-card>
+</template>
